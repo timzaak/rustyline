@@ -19,18 +19,18 @@
 
 pub mod completion;
 pub mod config;
-mod edit;
+pub mod edit;
 pub mod error;
 pub mod highlight;
 pub mod hint;
 pub mod history;
-mod keymap;
-mod keys;
-mod kill_ring;
-mod layout;
+pub mod keymap;
+pub mod keys;
+pub mod kill_ring;
+pub mod layout;
 pub mod line_buffer;
-mod tty;
-mod undo;
+pub mod tty;
+pub mod undo;
 pub mod validate;
 
 use std::collections::HashMap;
